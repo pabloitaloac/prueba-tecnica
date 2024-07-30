@@ -11,12 +11,12 @@ The code you will find allows the user to buy once license of the `color` produc
 Now there will be two products: `color` the old product, and `insider`, a new one. 
 
 1. The paywall should show the `insider` product allowing the user to select and purchase it. The user should be able to:
-    1. Buy the `color` product with a quantity of 1, monthly or yearly
-    2. Buy the `color` product with a quantity of 2 to 100, only yearly
+    1. Buy the `color` product with a quantity of 1, monthly (39.99€) or yearly (299€)
+    2. Buy the `color` product with a quantity of 2 to 100, only yearly (299€/unit)
 
 2. The paywall should show the `color` product allowing the user to select and purchase it. The user should be able to:
-    1. Buy the `insider` product with a quantity of 1, monthly or yearly
-    2. Buy the `insider` product with a quantity of 2 to 100, only yearly
+    1. Buy the `insider` product with a quantity of 1, monthly (14,99€) or yearly (89,99€)
+    2. Buy the `insider` product with a quantity of 2 to 100, only yearly (89,99€/unit)
 
 3. The paywall should show a third option allowing the user to buy both products together. The user should be able to:
     1. Buy both products together with a quantity of 1, monthly or yearly, with a discount of 10% on the total price
