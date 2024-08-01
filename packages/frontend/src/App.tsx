@@ -66,7 +66,7 @@ function App() {
       <Grid container spacing={5} justifyContent="center">
         <Grid item xs={12} sm={6} md={4}>
           <PlanPaper elevation={3}>
-            <PlanTitle variant="h5">Monthly</PlanTitle>
+            <PlanTitle variant="h5">Color Monthly</PlanTitle>
             <PlanPrice variant="h4">
               {monthlyProduct.price}€ / {monthlyProduct.billingPeriod}
             </PlanPrice>
@@ -81,7 +81,7 @@ function App() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <PlanPaper elevation={3}>
-            <PlanTitle variant="h5">Yearly</PlanTitle>
+            <PlanTitle variant="h5">Color Yearly</PlanTitle>
             <PlanPrice variant="h4">
               {yearlyProduct.price}€ / {yearlyProduct.billingPeriod}
             </PlanPrice>
@@ -96,7 +96,7 @@ function App() {
         </Grid>
         <Grid item xs={12} sm={6} md={4}>
           <PlanPaper elevation={3}>
-            <PlanTitle variant="h5">Teams</PlanTitle>
+            <PlanTitle variant="h5">Color Teams</PlanTitle>
             <PlanPrice variant="h4">
               {teamsProduct.price}€ / {teamsProduct.billingPeriod}
             </PlanPrice>
