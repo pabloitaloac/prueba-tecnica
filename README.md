@@ -30,9 +30,9 @@ In this technical interview, you will only need to implement a simplified versio
 
 The product mapping is as following:
 
-- `color` with quantity 1 and monthly is `monthly`
-- `color` with quantity 1 and yearly is `yearly`
-- `color` with quantity 2 to 100 and yearly is `teams`
-- `insider` with quantity 1 and monthly is `insider-monthly`
-- `insider` with quantity 1 and yearly is `insider-yearly`
-- `insider` with quantity 2 to 100 and yearly is `insider-teams`
+- `color` with quantity 1 and monthly is `colorMonthly`
+- `color` with quantity 1 and yearly is `colorYearly`
+- `color` with quantity 2 to 100 and yearly is `colorTeams`
+- `insider` with quantity 1 and monthly is `insiderMonthly`
+- `insider` with quantity 1 and yearly is `insiderYearly`
+- `insider` with quantity 2 to 100 and yearly is `insiderTeams`

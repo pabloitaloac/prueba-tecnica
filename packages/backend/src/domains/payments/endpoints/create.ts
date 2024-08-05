@@ -13,14 +13,14 @@ const getProduct = ({
   billingPeriod,
 }: CreatePaymentBody): Product => {
   if (billingPeriod === "monthly") {
-    return products.monthly;
+    return products.colorMonthly;
   }
 
   if (quantity > 1) {
-    return products.teams;
+    return products.colorTeams;
   }
 
-  return products.yearly;
+  return products.colorYearly;
 };
 
 const createPayment = ({

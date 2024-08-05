@@ -1,7 +1,4 @@
-export enum BillingPeriod {
-  Monthly = "monthly",
-  Annually = "annually",
-}
+import { BillingPeriod } from "@backend/domains/products/types";
 
 export type CreatePaymentBody = {
   quantity: number;

@@ -1,18 +1,18 @@
-import { BillingPeriod } from "../payments/types";
+import { BillingPeriod, Products } from "./types";
 
-export const products = {
-  monthly: {
-    id: "monthly",
+export const products: Products = {
+  colorMonthly: {
+    id: "colorMonthly",
     price: 10,
     billingPeriod: BillingPeriod.Monthly,
   },
-  yearly: {
-    id: "yearly",
+  colorYearly: {
+    id: "colorYearly",
     price: 100,
     billingPeriod: BillingPeriod.Annually,
   },
-  teams: {
-    id: "teams",
+  colorTeams: {
+    id: "colorTeams",
     price: 90,
     billingPeriod: BillingPeriod.Annually,
   },
