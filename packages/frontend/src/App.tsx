@@ -51,9 +51,9 @@ function App() {
 
   if (isPending) return "Loading...";
 
-  const monthlyProduct = products.monthly;
-  const yearlyProduct = products.yearly;
-  const teamsProduct = products.teams;
+  const monthlyProduct = products.colorMonthly;
+  const yearlyProduct = products.colorYearly;
+  const teamsProduct = products.colorTeams;
 
   return (
     <PricingContainer>
